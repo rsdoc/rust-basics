@@ -5,7 +5,8 @@
 // mod shadowing;
 // mod typecasting;
 // mod userinput;
-mod ifelse;
+// mod ifelse;
+mod loops;
 
 // we can use underscore - if that fuction is not in use
 
@@ -18,5 +19,6 @@ fn main() {
     // shadowing::run();
     // typecasting::run();
     // userinput::run();
-    ifelse::run();
+    // ifelse::run();
+    loops::run();
 }
