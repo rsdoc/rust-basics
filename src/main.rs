@@ -7,7 +7,9 @@
 // mod userinput;
 // mod ifelse;
 // mod loops;
-mod functions;
+// mod functions;
+// mod tuples;
+mod arrays;
 
 // we can use underscore - if that fuction is not in use
 
@@ -22,5 +24,7 @@ fn main() {
     // userinput::run();
     // ifelse::run();
     // loops::run();
-    functions::run();
+    // functions::run();
+    // tuples::run();
+    arrays::run();
 }
