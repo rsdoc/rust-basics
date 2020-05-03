@@ -6,7 +6,8 @@
 // mod typecasting;
 // mod userinput;
 // mod ifelse;
-mod loops;
+// mod loops;
+mod functions;
 
 // we can use underscore - if that fuction is not in use
 
@@ -20,5 +21,6 @@ fn main() {
     // typecasting::run();
     // userinput::run();
     // ifelse::run();
-    loops::run();
+    // loops::run();
+    functions::run();
 }
