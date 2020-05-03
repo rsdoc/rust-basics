@@ -4,7 +4,10 @@
 // mod comments;
 // mod shadowing;
 // mod typecasting;
-mod userinput;
+// mod userinput;
+mod ifelse;
+
+// we can use underscore - if that fuction is not in use
 
 fn main() {
     println!("Hello from Rust 😊");
@@ -14,5 +17,6 @@ fn main() {
     // comments::run();
     // shadowing::run();
     // typecasting::run();
-    userinput::run();
+    // userinput::run();
+    ifelse::run();
 }
