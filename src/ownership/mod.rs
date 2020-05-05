@@ -20,9 +20,11 @@
  */
 
 // mod ownershiprules;
-mod references;
+// mod references;
+mod borrowing;
 
 pub fn run() {
     // ownershiprules::run();
-    references::run();
+    // references::run();
+    borrowing::run();
 }
