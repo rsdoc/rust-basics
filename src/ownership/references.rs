@@ -8,7 +8,7 @@ pub fn run() {
 
     let s2 = &s1; // passed the reference to s2
 
-    // ! s2.push_str(" added value"); --> Error
+    // ! s2.push_str(" added value"); --> Error --> Cannot modify the borrowed value
     ref_wo_ownership(&s1);
 
     println!(" s1 is : {} and s2 is : {}", s1, s2);
