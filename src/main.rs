@@ -9,7 +9,9 @@
 // mod loops;
 // mod functions;
 // mod tuples;
-mod arrays;
+// mod arrays;
+
+mod ownership;
 
 // we can use underscore - if that fuction is not in use
 
@@ -26,5 +28,6 @@ fn main() {
     // loops::run();
     // functions::run();
     // tuples::run();
-    arrays::run();
+    // arrays::run();
+    ownership::run();
 }
