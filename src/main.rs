@@ -12,7 +12,8 @@
 // mod arrays;
 
 // mod ownership;
-mod structures;
+// mod structures;
+mod enums;
 
 // we can use underscore - if that fuction is not in use
 
@@ -31,5 +32,6 @@ fn main() {
     // tuples::run();
     // arrays::run();
     // ownership::run();
-    structures::run();
+    // structures::run();
+    enums::run();
 }
