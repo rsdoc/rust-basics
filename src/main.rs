@@ -14,7 +14,8 @@
 // mod ownership;
 // mod structures;
 // mod enums;
-mod enumrevision;
+// mod enumrevision;
+mod collections;
 
 // we can use underscore - if that fuction is not in use
 
@@ -35,5 +36,6 @@ fn main() {
     // ownership::run();
     // structures::run();
     // enums::run();
-    enumrevision::run();
+    // enumrevision::run();
+    collections::run();
 }
