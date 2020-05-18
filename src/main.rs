@@ -16,7 +16,8 @@
 // mod enums;
 // mod enumrevision;
 // mod collections;
-mod error_handling;
+// mod error_handling;
+mod generics;
 // we can use underscore - if that fuction is not in use
 
 fn main() {
@@ -38,5 +39,6 @@ fn main() {
     // enums::run();
     // enumrevision::run();
     // collections::run();
-    error_handling::run();
+    // error_handling::run();
+    generics::run();
 }
