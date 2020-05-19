@@ -17,8 +17,9 @@
 // mod enumrevision;
 // mod collections;
 // mod error_handling;
-mod generics;
+// mod generics;
 // we can use underscore - if that fuction is not in use
+mod traits;
 
 fn main() {
     println!("Hello from Rust 😊");
@@ -40,5 +41,6 @@ fn main() {
     // enumrevision::run();
     // collections::run();
     // error_handling::run();
-    generics::run();
+    // generics::run();
+    traits::run();
 }
