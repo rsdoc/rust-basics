@@ -20,7 +20,8 @@
 // mod generics;
 // we can use underscore - if that fuction is not in use
 // mod traits;
-mod testing;
+// mod testing;
+mod closures;
 
 fn main() {
     println!("Hello from Rust 😊");
@@ -44,4 +45,5 @@ fn main() {
     // error_handling::run();
     // generics::run();
     // traits::run();
+    closures::run();
 }
